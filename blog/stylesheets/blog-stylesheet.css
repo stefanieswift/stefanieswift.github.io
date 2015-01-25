@@ -1,0 +1,77 @@
+main {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+ul {
+	list-style-type: none;
+
+}
+
+ul a {
+	text-decoration: none;
+}
+
+.navMenu {
+	float: left;
+	width: 18%;
+	height: 98%;
+	padding-top:1%;
+	margin-bottom: 1%;
+	position: fixed;
+	border: double 2px  black;
+}
+.blogPosts {
+	width: 60%;
+	height: 100%;
+    float:left;
+
+	top: 0;
+	bottom:0;
+	margin-right: 20%;
+	margin-left: 20%;
+   background-image: url("osl.jpg");
+   border: 2px solid black;
+}
+.blogHeader {
+width: 80%;
+height: 2%;
+text-align: center;
+    float:left;
+    margin-left: 10%;
+    border: solid 2px black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.blogPrint {
+width: 80%;
+height: 2%;
+    float:left;
+    margin-left: 10%;
+    border: solid 2px black;
+    padding-top: 2px;
+    margin-bottom: 5%;
+    padding: 2px;
+}
+
+.social {
+    float: left;
+	position: fixed;
+	margin-right: 05%;
+	margin-left: 77%;
+	top: 0;
+	bottom:0;
+    width: 18%;
+}
+.social ul li {
+	display: inline-block;
+	font-size: 20px;
+	height: 30px;
+	width: 30px;
+	-webkit-border-radius: 180px 180px 180px 180px;
+	border-radius: 180px 180px 180px 180px;
+	text-align: center;
+	border: 1px solid #6666FF;
+    background-color: #F0F0FF;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
