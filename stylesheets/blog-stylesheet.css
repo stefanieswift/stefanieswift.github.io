@@ -101,6 +101,9 @@ height: 65%;
  
 }
 
+.pic img {
+text-align: center;
+}
 h1 {
 font-size: 40px;
 	font-weight: bold;
