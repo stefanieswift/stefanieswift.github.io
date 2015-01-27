@@ -12,6 +12,11 @@ body{
 header {
 	width: 100%;
 }
+
+#recent_posts a {
+		text-decoration: none;
+	color: #black;
+}
 h1{
 	color: #e6ffde;
 	font-size: 2em;
@@ -175,6 +180,10 @@ header a:visited{
 	border: double white;
 	margin-top: 15px;
 } 
+.food a, .project1 a, .project2 a, .project3 a, .post1 a, .post2 a, .post3 a {
+
+	text-decoration: none;
+	color: black;}
 
 .food h2 a, .projects a {
 	text-decoration: none;
