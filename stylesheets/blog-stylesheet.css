@@ -49,7 +49,7 @@ header a:visited{
 .navMenu li{
 	list-style-type: none;
 	display: inline-block;
-	padding-right: 10px;
+	padding-right:2.21%;
 }
 
 .hello {
@@ -104,7 +104,8 @@ header a:visited{
 .project1 {
 	float: left;
 	height: 350px;
-	width: 33.13%;
+	padding-left:.9%;
+	width: 32%;
 	background-color: #bbffa8; 
 	border-bottom: double white;
 	border-top: double white;
@@ -113,7 +114,8 @@ header a:visited{
 .project2 {
 	float: left;
 	height: 350px;
-	width: 33.13%;
+	padding-left:.9%;
+	width: 32%;
 	background-color: #af72b0; 
 	border-left: double white;
 	border-bottom: double white;
@@ -123,7 +125,8 @@ header a:visited{
 .project3{
 	float: left;
 	height: 350px;
-	width: 33.13%;
+	padding-left:.9%;
+	width: 32%;
 	background-color: #fae6de;
 	border-left: double white;
 	border-bottom: double white;
@@ -133,33 +136,36 @@ header a:visited{
 .food1 {
 	float: left;
 	height: 350px;
-	width: 31.12%;
+
 	background-color: #bbffa8; 
 	border-bottom: double white;
 	border-top: double white;
-	padding: 10px;
+	padding-left:.9%;
+	width: 32%;
 
 }
 .food2 {
 	float: left;
 	height: 350px;
-	width: 31.12%;%;
+	padding-left:.9%;
+	width: 32%;
 	background-color: #af72b0; 
 	border-left: double white;
 	border-bottom: double white;
 	border-top: double white;
-	padding: 10px;
+	
 
 }
 .food3{
 	float: left;
 	height: 350px;
-	width: 31.12%;;
+	padding-left:.9%;
+	width: 32%;
 	background-color: #fae6de;
 	border-left: double white;
 	border-bottom: double white;
 	border-top: double white;
-	padding: 10px;
+	
 }
 
 
@@ -202,63 +208,64 @@ p a{
 .social1 {
 	float: left;
 	height: 175px;
-	width: 33.13%;
+	padding-left:.9%;
+	width: 32%;
 	background-color: #bbffa8; 
 	border-bottom: double white;
 	border-top: double white;
-	padding-left:13px;
+
 
 }
 .social2 {
 	float: left;
 	height: 175px;
-	width: 31.12%;%;
+	
 	background-color: #af72b0; 
 	border-left: double white;
 	border-bottom: double white;
 	border-top: double white;
-
-	padding-left:13px;
+padding-left:.9%;
+	width: 32%;
 
 }
 .social3{
 	float: left;
 	height: 175px;
-	width: 31.12%;;
 	background-color: #fae6de;
 	border-left: double white;
 	border-bottom: double white;
 	border-top: double white;
-	padding-left:13px;
+	padding-left:.9%;
+	width: 32%;
 }
 .social4 {
 	float: left;
 	height: 175px;
-	width: 33.13%;
 	background-color: #af72b0; 
 	border-bottom: double white;
-	padding-left:13px;
+	padding-left:.9%;
+	width: 32%;
 
 }
 .social5 {
 	float: left;
 	height: 175px;
-	width: 31.12%;%;
 	
 	background-color: #fae6de;
 	border-left: double white;
 	border-bottom: double white;
-	padding-left:13px;
+	padding-left:.9%;
+	width: 32%;
 
 }
 .social6{
 	float: left;
 	height: 175px;
-	width: 31.12%;;
 	background-color: #bbffa8;
 	border-left: double white;
 	border-bottom: double white;
-	padding-left:13px;
+	padding-left:.9%;
+	width: 32%;
 }
 
 .contact {
@@ -275,16 +282,16 @@ p a{
 .form {
 	float: left;
 	height: 350px;
-	width: 31.12%;
+	padding-left:.9%;
+	width: 32%;
 	background-color: #bbffa8; 
 	border-top: double white;
 	border-bottom: double white;
-	padding: 10px;
 
 }
 
 input, textarea {
-	padding: 10px;
+	padding:2.21%;
 	border: double white;
 	width: 200px;
 	color: #af72b0;
@@ -300,7 +307,7 @@ textarea {
 
 
 .form label {
-	margin-left: 10px;
+	margin-left:2.21%;
 	color: #af72b0;
 }
 .submit input {
@@ -316,12 +323,12 @@ textarea {
 .contact-info {
 	float: left;
 	height: 350px;
-	width: 31.12%;
+	padding-left:.9%;
+	width: 32%;
 	background-color: #af72b0; 
 	border-left: double white;
 	border-bottom: double white;
 	border-top: double white;
-	padding: 10px;
 	color:#fae6de;
 }
 
@@ -332,12 +339,55 @@ textarea {
 #map-canvas{
 	float: left;
 	height: 350px;
-	width: 31.12%;;
 	background-color: #fae6de;
 	border-left: double white;
 	border-bottom: double white;
 	border-top: double white;
-	padding: 10px;
+	padding-left:.9%;
+	width: 32%;
+}
+
+#recent_posts{
+	clear: both;
+	text-align: center;
+	color: black;
+	font-size: 1em;
+	width: 101%;
+	height: 600px;
+	margin-left: -10px;
+	border-top: double white;
+	border-bottom: double white;}
+
+.post1 {
+	float: left;
+	height: 350px;
+	padding-left:.9%;
+	width: 32%;
+	background-color: #bbffa8; 
+	border-bottom: double white;
+	border-top: double white;
+
+}
+.post2 {
+	float: left;
+	height: 350px;
+	padding-left:.9%;
+	width: 32%;
+	background-color: #af72b0; 
+	border-left: double white;
+	border-bottom: double white;
+	border-top: double white;
+
+}
+.post3{
+	float: left;
+	height: 350px;
+	padding-left:.9%;
+	width: 32%;
+	background-color: #fae6de;
+	border-left: double white;
+	border-bottom: double white;
+	border-top: double white;
 }
 
 
@@ -348,5 +398,7 @@ margin-left: -2px;
 margin-bottom: 0px;
 color: #e6ffde;
 font-size: 1em;
+
+}em;
 
 }

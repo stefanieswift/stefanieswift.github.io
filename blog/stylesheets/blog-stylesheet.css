@@ -11,9 +11,13 @@ body{
 }
 header {
 	width: 100%;
-	position: fixed;
 }
-
+h1{
+	color: #e6ffde;
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Open Sans Condensed', serif
+}
 header a {
 	text-decoration: none;
 	color: white;
@@ -45,65 +49,354 @@ header a:visited{
 .navMenu li{
 	list-style-type: none;
 	display: inline-block;
-	padding-right: 10px;
+	padding-right:2.21%;
 }
 
-.blog {
+.hello {
 	clear: both;
-	background-color: black .02;
-	position:fixed;
+	text-align: center;
+	margin-top: 10%;
 	color: white;
+	font-size: 1.2em;
+	width: 30%;
+	margin-left: 35%;
+	border: double white;
+
+}
+
+#projects {
+	clear: both;
+	text-align: center;
+	color: black;
 	font-size: 1em;
-	text-align: left;
-	margin-top: 5%;
-	height:75%;
-	width:80%;
-	margin-left: 10%;
-	margin-right: 10%;
-	overflow: scroll;
-	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top:5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 5px;
+	width: 101%;
+	height: 600px;
+	margin-left: -10px;
+	border-top: double white;
+	border-bottom: double white;
+}
+
+.food{
+	clear: both;
+	text-align: center;
+	color: black;
+	font-size: 1em;
+	width: 101%;
+	height: 600px;
+	margin-left: -10px;
+	border-bottom: double white;
+}
+
+.social {
+	clear: both;
+	text-align: center;
+	color: black;
+	font-size: 1em;
+	width: 101%;
+	height: 600px;
+	margin-left: -10px;
+	border-bottom: double white;
+}
+
+
+
+
+.project1 {
+	float: left;
+	height: 350px;
+	padding-left:.9%;
+	width: 32%;
+	background-color: #bbffa8; 
+	border-bottom: double white;
+	border-top: double white;
+
+}
+.project2 {
+	float: left;
+	height: 350px;
+	padding-left:.9%;
+	width: 32%;
+	background-color: #af72b0; 
+	border-left: double white;
+	border-bottom: double white;
+	border-top: double white;
+
+}
+.project3{
+	float: left;
+	height: 350px;
+	padding-left:.9%;
+	width: 32%;
+	background-color: #fae6de;
+	border-left: double white;
+	border-bottom: double white;
+	border-top: double white;
+}
+
+.food1 {
+	float: left;
+	height: 350px;
+
+	background-color: #bbffa8; 
+	border-bottom: double white;
+	border-top: double white;
+	padding-left:.9%;
+	width: 32%;
+
+}
+.food2 {
+	float: left;
+	height: 350px;
+	padding-left:.9%;
+	width: 32%;
+	background-color: #af72b0; 
+	border-left: double white;
+	border-bottom: double white;
+	border-top: double white;
+	
+
+}
+.food3{
+	float: left;
+	height: 350px;
+	padding-left:.9%;
+	width: 32%;
+	background-color: #fae6de;
+	border-left: double white;
+	border-bottom: double white;
+	border-top: double white;
+	
+}
+
+
+.food1 img, .food2 img, .food3 img, .project1 img, .project2 img, .project3 img {
+	width: 150px;
+	height: 100px;
+	border: double white;
+	margin-top: 15px;
+} 
+
+.food h2 a, .projects a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.5em;
+}
+
+.food h2 a:hover, .projects a:hover{
+	text-decoration: none;
+	color: black;
 
 }
 
-h1 {
-	color: white;
-	font-size:2em;
-	line-height: 1em;
-	padding: 0em;
+.food h2 a:visited, .projects a:visited{
+	text-decoration: none;
+	color: black; }
+
+p a{
+	text-decoration: none;
+	color: black;
+	font-size: 1em;
 }
 
-h2 {
-	color: white;
-	font-size:1.5em;
-	line-height: 1em;
-	padding: 0em;
+.social img
+{
+	height: 78px;
+	width: 78px;
+	border: double white;
+	margin-top: 40px;
 }
-h4 {
-	color: white;
-	font-size:1.2em;
-	line-height: 1em;
-	padding: 0em;
+.social1 {
+	float: left;
+	height: 175px;
+	padding-left:.9%;
+	width: 32%;
+	background-color: #bbffa8; 
+	border-bottom: double white;
+	border-top: double white;
+
+
+}
+.social2 {
+	float: left;
+	height: 175px;
+	
+	background-color: #af72b0; 
+	border-left: double white;
+	border-bottom: double white;
+	border-top: double white;
+padding-left:.9%;
+	width: 32%;
+
+}
+.social3{
+	float: left;
+	height: 175px;
+	background-color: #fae6de;
+	border-left: double white;
+	border-bottom: double white;
+	border-top: double white;
+	padding-left:.9%;
+	width: 32%;
+}
+.social4 {
+	float: left;
+	height: 175px;
+	background-color: #af72b0; 
+	border-bottom: double white;
+	padding-left:.9%;
+	width: 32%;
+
+}
+.social5 {
+	float: left;
+	height: 175px;
+	
+	background-color: #fae6de;
+	border-left: double white;
+	border-bottom: double white;
+	padding-left:.9%;
+	width: 32%;
+
+}
+.social6{
+	float: left;
+	height: 175px;
+	background-color: #bbffa8;
+	border-left: double white;
+	border-bottom: double white;
+	padding-left:.9%;
+	width: 32%;
+}
+
+.contact {
+	clear: both;
+	text-align: center;
+	color: black;
+	font-size: 1em;
+	width: 101%;
+	height: 600px;
+	margin-left: -10px;
+	border-bottom: double white;
+}
+
+.form {
+	float: left;
+	height: 350px;
+	padding-left:.9%;
+	width: 32%;
+	background-color: #bbffa8; 
+	border-top: double white;
+	border-bottom: double white;
+
+}
+
+input, textarea {
+	padding:2.21%;
+	border: double white;
+	width: 200px;
+	color: #af72b0;
+		
+}
+
+textarea {
+	width: 200px;
+	height: 36px;
+	max-width: 400px;
+	line-height: 18px;
+}
+
+
+.form label {
+	margin-left:2.21%;
+	color: #af72b0;
+}
+.submit input {
+	width: 100px; 
+	height: 40px;
+	background-color: #af72b0; 
+	color: #fae6de;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;		
+}
+
+.contact-info {
+	float: left;
+	height: 350px;
+	padding-left:.9%;
+	width: 32%;
+	background-color: #af72b0; 
+	border-left: double white;
+	border-bottom: double white;
+	border-top: double white;
+	color:#fae6de;
+}
+
+.contact-info a{
+		text-decoration: none;
+	color: #e6ffde;
+	}
+#map-canvas{
+	float: left;
+	height: 350px;
+	background-color: #fae6de;
+	border-left: double white;
+	border-bottom: double white;
+	border-top: double white;
+	padding-left:.9%;
+	width: 32%;
+}
+
+#recent_posts{
+	clear: both;
+	text-align: center;
+	color: black;
+	font-size: 1em;
+	width: 101%;
+	height: 600px;
+	margin-left: -10px;
+	border-top: double white;
+	border-bottom: double white;}
+
+.post1 {
+	float: left;
+	height: 350px;
+	padding-left:.9%;
+	width: 32%;
+	background-color: #bbffa8; 
+	border-bottom: double white;
+	border-top: double white;
+
+}
+.post2 {
+	float: left;
+	height: 350px;
+	padding-left:.9%;
+	width: 32%;
+	background-color: #af72b0; 
+	border-left: double white;
+	border-bottom: double white;
+	border-top: double white;
+
+}
+.post3{
+	float: left;
+	height: 350px;
+	padding-left:.9%;
+	width: 32%;
+	background-color: #fae6de;
+	border-left: double white;
+	border-bottom: double white;
+	border-top: double white;
 }
 
 
 .footer {
-position: fixed;
-  clear: both;
+   	clear: both;
 width: 101%;
-margin-left:20px;
-margin-bottom: 0%;
-margin-top: 52%;
-height: 5%;
+margin-left: -2px;
+margin-bottom: 0px;
 color: #e6ffde;
 font-size: 1em;
 
 }
-
