@@ -13,7 +13,39 @@ header {
 	width: 100%;
 }
 
-#recent_posts a {
+.post1 a {
+		text-decoration: none;
+	color: #black;
+}
+.post2 a {
+		text-decoration: none;
+	color: #black;
+}
+.post3 a {
+		text-decoration: none;
+	color: #black;
+}
+.food1 a {
+		text-decoration: none;
+	color: #black;
+}
+.food2 a {
+		text-decoration: none;
+	color: #black;
+}
+.food3 a {
+		text-decoration: none;
+	color: #black;
+}
+.project1 a {
+		text-decoration: none;
+	color: #black;
+}
+.project2 a {
+		text-decoration: none;
+	color: #black;
+}
+.project3 a {
 		text-decoration: none;
 	color: #black;
 }
@@ -180,31 +212,12 @@ header a:visited{
 	border: double white;
 	margin-top: 15px;
 } 
-.food a, .project1 a, .project2 a, .project3 a, .post1 a, .post2 a, .post3 a {
 
-	text-decoration: none;
-	color: black;}
 
 .food h2 a, .projects a {
 	text-decoration: none;
 	color: black;
 	font-size: 1.5em;
-}
-
-.food h2 a:hover, .projects a:hover{
-	text-decoration: none;
-	color: black;
-
-}
-
-.food h2 a:visited, .projects a:visited{
-	text-decoration: none;
-	color: black; }
-
-p a{
-	text-decoration: none;
-	color: black;
-	font-size: 1em;
 }
 
 .social img
@@ -342,6 +355,10 @@ textarea {
 }
 
 .contact-info a{
+		text-decoration: none;
+	color: #e6ffde;
+	}
+.food a {
 		text-decoration: none;
 	color: #e6ffde;
 	}
