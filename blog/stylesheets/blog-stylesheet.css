@@ -30,13 +30,16 @@ header {
   text-align: left;
   border: double white;
 }
-.blog h1, .blog h2, .blog h4, p {
- line-height: 1em;
-}
-
 .blog h1 {
 	color:#313378;
 }
+
+.blog h1, .blog h2, .blog h4, p {
+ line-height: 1em;
+ color: 006e42;
+}
+
+
 
 .post1 a {
 		text-decoration: none;
