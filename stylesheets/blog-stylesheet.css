@@ -15,39 +15,39 @@ header {
 
 .post1 a {
 		text-decoration: none;
-	color: black;
+	color: #2e338f;
 }
 .post2 a {
 		text-decoration: none;
-	color:black;
+	color:#2e338f;
 }
 .post3 a {
 		text-decoration: none;
-	color: black;
+	color: #2e338f;
 }
 .food1 a {
 		text-decoration: none;
-	color: black;
+	color: #2e338f;
 }
 .food2 a {
 		text-decoration: none;
-	color: black;
+	color: #2e338f;
 }
 .food3 a {
 		text-decoration: none;
-	color: black;
+	color: #2e338f;
 }
 .project1 a {
 		text-decoration: none;
-	color: black;
+	color: #2e338f;
 }
 .project2 a {
 		text-decoration: none;
-	color: black;
+	color: #2e338f;
 }
 .project3 a {
 		text-decoration: none;
-	color: black;
+	color: #2e338f;
 }
 h1{
 	color: #b7e5f7;
@@ -57,19 +57,19 @@ h1{
 }
 header a {
 	text-decoration: none;
-	color: white;
+	color: #b7e5f7;
 	font-size: 1.2em;
 }
 
 header a:hover{
 	text-decoration: none;
-	color: #b7e5f7;
+	color: white;
 
 }
 
 header a:visited{
 	text-decoration: none;
-	color: white;
+	color: #b7e5f7;
 }
 
 .home {
@@ -93,7 +93,7 @@ header a:visited{
 	clear: both;
 	text-align: center;
 	margin-top: 10%;
-	color: white;
+	color: #2e338f;
 	font-size: 1.2em;
 	width: 30%;
 	margin-left: 35%;
@@ -109,7 +109,7 @@ header a:visited{
 #projects {
 	clear: both;
 	text-align: center;
-	color: black;
+	color: #2e338f;
 	font-size: 1em;
 	width: 101%;
 	height: 600px;
@@ -120,7 +120,7 @@ header a:visited{
 .food{
 	clear: both;
 	text-align: center;
-	color: black;
+	color: #2e338f;
 	font-size: 1em;
 	width: 101%;
 	height: 600px;
@@ -131,7 +131,7 @@ header a:visited{
 .social {
 	clear: both;
 	text-align: center;
-	color: black;
+	color: #2e338f;
 	font-size: 1em;
 	width: 101%;
 	height: 600px;
@@ -239,9 +239,9 @@ header a:visited{
 } 
 
 
-.food h2 a, .projects a {
+.food h2 a, .projects a, .posts h2 a {
 	text-decoration: none;
-	color: black;
+	color: #2e338f;
 	font-size: 1.5em;
 }
 
@@ -340,7 +340,7 @@ padding-left:.9%;
 .contact {
 	clear: both;
 	text-align: center;
-	color: black;
+	color: #2e338f;
 	font-size: 1em;
 	width: 101%;
 	height: 600px;
@@ -367,7 +367,7 @@ input, textarea {
 	padding:2.21%;
 	border: double white;
 	width: 200px;
-	color: black;
+	color: #2e338f;
 		
 }
 
@@ -381,12 +381,12 @@ textarea {
 
 .form label {
 	margin-left:2.21%;
-	color: #b7e5f7;
+	color: #2e338f;
 }
 .submit input {
 	width: 100px; 
 	height: 40px;
-	background-color: #af72b0; 
+	background-color: #2e338f; 
 	color: #b7e5f7;
 	border-radius: 6px;
 	-moz-border-radius: 6px;
@@ -406,17 +406,23 @@ textarea {
 	border-left: double white;
 	border-bottom: double white;
 	border-top: double white;
-	color:black;
+	color:#2e338f;
 }
 
 .contact-info a{
 		text-decoration: none;
-	color: black;
+	color: #2e338f;
 	}
 .food a {
 		text-decoration: none;
-	color: black;
+	color: #2e338f;
 	}
+
+#recent_posts a {
+			text-decoration: none;
+	color: #2e338f;
+	}
+
 #map-canvas{
 	float: left;
 	height: 350px;
@@ -435,7 +441,7 @@ textarea {
 #recent_posts{
 	clear: both;
 	text-align: center;
-	color: black;
+	color: #2e338f;
 	font-size: 1em;
 	width: 101%;
 	height: 600px;
