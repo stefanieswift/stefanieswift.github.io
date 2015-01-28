@@ -12,7 +12,21 @@ body{
 header {
 	width: 100%;
 }
+.blog {
+	width: 80%;
+	border: double #b7e5f7;
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow1.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #2e338f;
+  margin-top: 10%;
+  margin-left: 10%;
+  float: left;
 
+
+}
 .post1 a {
 		text-decoration: none;
 	color: #2e338f;
