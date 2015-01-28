@@ -23,6 +23,8 @@ header {
   font-family: 'Open Sans Condensed', serif;
   padding: 10px;
   color: white;
+  margin-left: -1%;
+  padding-left:20px;
   margin-top: 10%;
   height: 80%;
   width: 101%;
