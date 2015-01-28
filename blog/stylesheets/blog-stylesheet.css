@@ -98,6 +98,11 @@ header a:visited{
 	width: 30%;
 	margin-left: 35%;
 	border: double white;
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 
@@ -109,8 +114,7 @@ header a:visited{
 	width: 101%;
 	height: 600px;
 	margin-left: -10px;
-	border-top: double white;
-	border-bottom: double white;
+
 }
 
 .food{
@@ -121,7 +125,7 @@ header a:visited{
 	width: 101%;
 	height: 600px;
 	margin-left: -10px;
-	border-bottom: double white;
+
 }
 
 .social {
@@ -132,7 +136,6 @@ header a:visited{
 	width: 101%;
 	height: 600px;
 	margin-left: -10px;
-	border-bottom: double white;
 }
 
 
@@ -143,38 +146,52 @@ header a:visited{
 	height: 350px;
 	padding-left:.9%;
 	width: 32%;
-	background-color: #bbffa8; 
 	border-bottom: double white;
 	border-top: double white;
+		background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 .project2 {
 	float: left;
 	height: 350px;
 	padding-left:.9%;
-	width: 32%;
-	background-color: #af72b0; 
+	width: 32%; 
 	border-left: double white;
 	border-bottom: double white;
 	border-top: double white;
-
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .project3{
 	float: left;
 	height: 350px;
 	padding-left:.9%;
 	width: 32%;
-	background-color: #fae6de;
 	border-left: double white;
 	border-bottom: double white;
 	border-top: double white;
+		background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .food1 {
 	float: left;
 	height: 350px;
-
-	background-color: #bbffa8; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 	border-bottom: double white;
 	border-top: double white;
 	padding-left:.9%;
@@ -186,7 +203,11 @@ header a:visited{
 	height: 350px;
 	padding-left:.9%;
 	width: 32%;
-	background-color: #af72b0; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	border-left: double white;
 	border-bottom: double white;
 	border-top: double white;
@@ -198,7 +219,11 @@ header a:visited{
 	height: 350px;
 	padding-left:.9%;
 	width: 32%;
-	background-color: #fae6de;
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	border-left: double white;
 	border-bottom: double white;
 	border-top: double white;
@@ -232,7 +257,11 @@ header a:visited{
 	height: 175px;
 	padding-left:.9%;
 	width: 32%;
-	background-color: #bbffa8; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 	border-bottom: double white;
 	border-top: double white;
 
@@ -241,8 +270,11 @@ header a:visited{
 .social2 {
 	float: left;
 	height: 175px;
-	
-	background-color: #af72b0; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 	border-left: double white;
 	border-bottom: double white;
 	border-top: double white;
@@ -253,7 +285,11 @@ padding-left:.9%;
 .social3{
 	float: left;
 	height: 175px;
-	background-color: #fae6de;
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	border-left: double white;
 	border-bottom: double white;
 	border-top: double white;
@@ -263,7 +299,11 @@ padding-left:.9%;
 .social4 {
 	float: left;
 	height: 175px;
-	background-color: #af72b0; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	border-bottom: double white;
 	padding-left:.9%;
 	width: 32%;
@@ -272,8 +312,11 @@ padding-left:.9%;
 .social5 {
 	float: left;
 	height: 175px;
-	
-	background-color: #fae6de;
+		background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	border-left: double white;
 	border-bottom: double white;
 	padding-left:.9%;
@@ -282,8 +325,11 @@ padding-left:.9%;
 }
 .social6{
 	float: left;
-	height: 175px;
-	background-color: #bbffa8;
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	border-left: double white;
 	border-bottom: double white;
 	padding-left:.9%;
@@ -306,7 +352,11 @@ padding-left:.9%;
 	height: 350px;
 	padding-left:.9%;
 	width: 32%;
-	background-color: #bbffa8; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	border-top: double white;
 	border-bottom: double white;
 
@@ -365,7 +415,11 @@ textarea {
 #map-canvas{
 	float: left;
 	height: 350px;
-	background-color: #fae6de;
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	border-left: double white;
 	border-bottom: double white;
 	border-top: double white;
@@ -381,7 +435,7 @@ textarea {
 	width: 101%;
 	height: 600px;
 	margin-left: -10px;
-	border-top: double white;
+
 	border-bottom: double white;}
 
 .post1 {
@@ -389,7 +443,11 @@ textarea {
 	height: 350px;
 	padding-left:.9%;
 	width: 32%;
-	background-color: #bbffa8; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 	border-bottom: double white;
 	border-top: double white;
 
@@ -399,7 +457,11 @@ textarea {
 	height: 350px;
 	padding-left:.9%;
 	width: 32%;
-	background-color: #af72b0; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	border-left: double white;
 	border-bottom: double white;
 	border-top: double white;
@@ -410,7 +472,11 @@ textarea {
 	height: 350px;
 	padding-left:.9%;
 	width: 32%;
-	background-color: #fae6de;
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	border-left: double white;
 	border-bottom: double white;
 	border-top: double white;
@@ -424,5 +490,10 @@ margin-left: -2px;
 margin-bottom: 0px;
 color: #e6ffde;
 font-size: 1em;
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
