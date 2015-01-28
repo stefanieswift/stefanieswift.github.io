@@ -334,6 +334,7 @@ padding-left:.9%;
 	border-bottom: double white;
 	padding-left:.9%;
 	width: 32%;
+	height: 175px;
 }
 
 .contact {
@@ -344,7 +345,7 @@ padding-left:.9%;
 	width: 101%;
 	height: 600px;
 	margin-left: -10px;
-	border-bottom: double white;
+
 }
 
 .form {
@@ -397,7 +398,11 @@ textarea {
 	height: 350px;
 	padding-left:.9%;
 	width: 32%;
-	background-color: #af72b0; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 	border-left: double white;
 	border-bottom: double white;
 	border-top: double white;
@@ -435,8 +440,7 @@ textarea {
 	width: 101%;
 	height: 600px;
 	margin-left: -10px;
-
-	border-bottom: double white;}
+}
 
 .post1 {
 	float: left;
