@@ -21,6 +21,9 @@ header {
   background-size: cover;
   font-family: 'Open Sans Condensed', serif;
   padding: 10px;
+  color: white;
+  margin-top: 10%;
+  height: 80%;
 }
 .blog h1, .blog h2, .blog h4, p {
  line-height: 1em;
