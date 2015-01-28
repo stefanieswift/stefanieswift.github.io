@@ -13,7 +13,7 @@ header {
 	width: 100%;
 }
 .blog {
-	width: 80%;
+	width: 75%;
 	border: double #b7e5f7;
 	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow1.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -21,8 +21,8 @@ header {
   -o-background-size: cover;
   background-size: cover;
   color: #2e338f;
-  margin-top: 8%;
-  margin-left: 10%;
+  margin-top: 5%;
+  margin-left: 5%;
   float: left;
   padding: 5%;
 
