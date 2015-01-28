@@ -261,6 +261,14 @@ header a:visited{
 	margin-top: 15px;
 } 
 
+.project1_img {
+	width: 150px;
+	height: 100px;
+	border: double #b7e5f7;
+	margin-top: 15px;	
+	background-image: url('http://thedelectablefeast.com/cucumber-noodles-smoked-salmon')
+}
+
 
 .food h2 a, .projects a, .posts h2 a {
 	text-decoration: none;
