@@ -98,7 +98,7 @@ header a:visited{
 	width: 30%;
 	margin-left: 35%;
 	border: double white;
-	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow.png') no-repeat center center fixed; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow1.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -148,7 +148,7 @@ header a:visited{
 	width: 32%;
 	border-bottom: double white;
 	border-top: double white;
-		background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow.png') no-repeat center center fixed; 
+		background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow1.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -231,7 +231,7 @@ header a:visited{
 }
 
 
-.food1 img, .food2 img, .food3 img, .project1 img, .project2 img, .project3 img {
+.food1 img, .food2 img, .food3 img, .project1 img, .project2 img, .project3 img, .post1 img, .post2 img, .post3 img {
 	width: 150px;
 	height: 100px;
 	border: double white;
@@ -257,7 +257,7 @@ header a:visited{
 	height: 175px;
 	padding-left:.9%;
 	width: 32%;
-	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow.png') no-repeat center center fixed; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow1.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -270,7 +270,7 @@ header a:visited{
 .social2 {
 	float: left;
 	height: 175px;
-	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow.png') no-repeat center center fixed; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow1.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -285,7 +285,7 @@ padding-left:.9%;
 .social3{
 	float: left;
 	height: 175px;
-	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow.png') no-repeat center center fixed; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow1.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -299,7 +299,7 @@ padding-left:.9%;
 .social4 {
 	float: left;
 	height: 175px;
-	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow.png') no-repeat center center fixed; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow1.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -312,7 +312,7 @@ padding-left:.9%;
 .social5 {
 	float: left;
 	height: 175px;
-		background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow.png') no-repeat center center fixed; 
+		background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow1.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -325,7 +325,7 @@ padding-left:.9%;
 }
 .social6{
 	float: left;
-	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow.png') no-repeat center center fixed; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow1.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -353,7 +353,7 @@ padding-left:.9%;
 	height: 350px;
 	padding-left:.9%;
 	width: 32%;
-	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow.png') no-repeat center center fixed; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow1.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -398,7 +398,7 @@ textarea {
 	height: 350px;
 	padding-left:.9%;
 	width: 32%;
-	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow.png') no-repeat center center fixed; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow1.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -423,10 +423,15 @@ textarea {
 	color: #2e338f;
 	}
 
+.projects a {
+			text-decoration: none;
+	color: #2e338f;
+	}
+
 #map-canvas{
 	float: left;
 	height: 350px;
-	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow.png') no-repeat center center fixed; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow1.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -453,7 +458,7 @@ textarea {
 	height: 350px;
 	padding-left:.9%;
 	width: 32%;
-	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow.png') no-repeat center center fixed; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow1.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -467,7 +472,7 @@ textarea {
 	height: 350px;
 	padding-left:.9%;
 	width: 32%;
-	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow.png') no-repeat center center fixed; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow1.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -482,7 +487,7 @@ textarea {
 	height: 350px;
 	padding-left:.9%;
 	width: 32%;
-	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow.png') no-repeat center center fixed; 
+	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/yellow1.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
