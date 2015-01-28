@@ -28,6 +28,7 @@ header {
   height: 80%;
   width: 80%;
   text-align: left;
+  border: double white;
 }
 .blog h1, .blog h2, .blog h4, p {
  line-height: 1em;
@@ -514,10 +515,5 @@ margin-left: -2px;
 margin-bottom: 0px;
 color: #e6ffde;
 font-size: 1em;
-	background: url('http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled.png') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 
 }
