@@ -24,7 +24,10 @@ header {
   padding: 10px;
   color: white;
   margin-top: 10%;
+  margin-left: 10%;
   height: 80%;
+  width: 80%;
+  text-align: left;
 }
 .blog h1, .blog h2, .blog h4, p {
  line-height: 1em;
