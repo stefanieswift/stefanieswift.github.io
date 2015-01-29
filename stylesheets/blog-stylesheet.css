@@ -5,6 +5,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
   font-family: 'Raleway', serif;
+  text-transform: lowercase;
 }
 body{
 	width: 100%;
