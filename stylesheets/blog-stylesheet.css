@@ -30,6 +30,12 @@ header {
   line-height: 1em;
 
 }
+code {
+	border: double #b7e5f7;
+	width:60%;
+	padding-left: 7.5%;
+
+}
 .blog a{
 	color: #2e338f;
 	text-align: center;
@@ -533,8 +539,6 @@ textarea {
    	clear: both;
 width: 101%;
 margin-left: -2px;
-margin-bottom: 0px;
-margin-top: 100%;
 color: #b7e5f7;
 font-size: 1em;
 
