@@ -4,7 +4,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'Raleway', serif
+  font-family: 'Raleway', serif;
 }
 body{
 	width: 100%;
@@ -533,6 +533,7 @@ textarea {
 width: 101%;
 margin-left: -2px;
 margin-bottom: 0px;
+margin-top: 100%;
 color: #b7e5f7;
 font-size: 1em;
 
