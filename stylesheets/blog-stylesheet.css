@@ -33,8 +33,9 @@ header {
 .code {
 	border: double #b7e5f7;
 	width:60%;
-	padding-left: 7.5%;
-	height: 2em;
+	padding:1%;
+	height: 100%;
+	margin-left: 20%;
 
 }
 .blog a{
