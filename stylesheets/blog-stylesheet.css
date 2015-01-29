@@ -30,10 +30,11 @@ header {
   line-height: 1em;
 
 }
-code {
+.codeblock {
 	border: double #b7e5f7;
 	width:60%;
 	padding-left: 7.5%;
+	height: 2em;
 
 }
 .blog a{
