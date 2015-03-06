@@ -1,0 +1,17 @@
+header h1 {
+	text-align: center;
+	font-size:5em;
+}
+
+.bullets ul li {
+	list-style: circle;
+}
+
+ol {
+	list-style-type: none;
+}
+
+.toc a {
+	color: black;
+	font-size: 1.5em;
+}

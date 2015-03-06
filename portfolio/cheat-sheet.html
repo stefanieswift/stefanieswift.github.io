@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<!--worked on this with campbell. It took us two hours -->
+	<title>SQL Query Command Cheat Sheet</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="stylesheets.css">
+</head>
+<header><h1>SQL Query Command Cheat Sheet</h1></header>
+<body>
+	<div class="toc">
+		<ol>
+			<a href="#select"><li>SELECT Statements</li></a>
+			<a href="#update"><li>Update Table Statements</li></a>
+			<a href="#operators"><li>Operators</li></a>
+			<a href="#join"><li>Join Statements</li></a>
+		</ol>
+	</div>
+	<div class="content">
+		<ol>
+			<li><a name="select"><h2>SELECT Statements</h2></a>
+				<ul class="bullets">
+					<li>SELECT * FROM t</li>
+					<li>SELECT c1,c2 FROM t</li>
+					<li>SELECT c1,c2 FROM t WHERE conditions ORDER BY c1 ASC/DESC</li>
+					<li>SELECT DISTINCT c1,c2 FROM t</li>
+				</ul>
+			</li>
+			<li><a name="update"><h2>Update Table Statements</h2></a>
+				<ul class="bullets">
+					<li>INSERT INTO t (c1,c2…) VALUES (v1,v2...)</li>
+					<li>INSERT INTO t1 (c1,c2…) SELECT c1,c2… FROM t2 WHERE conditions</li>
+					<li>UPDATE t SET c1 = v1, c2 = v2,… WHERE conditions</li>
+					<li>DELETE FROM t WHERE conditions</li>
+					<li>TRUNCATE TABLE t</li>
+				</ul>
+			</li>
+			<li><a name ="operators"><h2>Operators</h2></a>
+				<ul class="bullets">
+					<li>SELECT * FROM t WHERE c1 [NOT] BETWEEN v1 AND v2</li>
+					<li>SELECT * FROM t WHERE c1 [NOT ] IN (v1,v2,…)</li>
+					<li>SELECT * FROM t WHERE c1 > v1 AND c1 &lt; v2</li>
+					<li>SELECT * FROM t WHERE c1 = v1</li>
+					<li>SELECT * FROM t WHERE c1 &lt;&gt; v1</li>
+				</ul>
+			</li>
+			<li><a name="join"><h2>Join Statements</h2></a>
+				<ul class="bullets">
+					<li>SELECT * FROM t1 INNER JOIN t2 ON conditions</li>
+					<li>SELECT * FROM t WHERE c1 [NOT ] IN (v1,v2,…)</li>
+					<li>SELECT * FROM t1 INNER JOIN t2 ON conditions WHERE conditions</li>
+					<li>SELECT * FROM t1, t2 WHERE conditions</li>
+					<li>SELECT * FROM t1 LEFT JOIN t2 ON conditions</li>
+				</ul>
+			</li>
+		</ol>
+
+	</div>
+</body>
+</html>
