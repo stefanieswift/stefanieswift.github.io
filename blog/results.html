@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stefanie Swift's site</title>
+    <meta charset="UTF-8">
+   <link rel="stylesheet" type="text/css" href="http://stefanieswift.github.io/stylesheets/blog-stylesheet.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel="icon" 
+      type="image/png" 
+      href="http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled-drawing-1.png">
+      <script src="t8-tech.js"></script>
+      <script>var actualchoices=new Array()</script>
+  </head>
+    <header>
+      <div class="home">
+        <a href="http://stefanieswift.github.io">stefanie swift</a>
+      </div>
+      <div class="navMenu">
+       <ul>
+          <li><a href="http://stefanieswift.github.io/about">about</a></li>
+          <li><a href="http://stefanieswift.github.io/portfolio">portfolio</a></li>
+          <li><a href="http://thedelectablefeast.com">food blog</a></li>
+          <li><a href="http://stefanieswift.github.io/blog">technical blog</a></li>
+          <li><a href="http://stefanieswift.github.io/resume">resume</a></li>
+          <li><a href="http://stefanieswift.github.io/contact">contact</a></li>
+        </ul>
+      </div>
+      </header>
+      <div class="blog">
+      <h1>Let's test your rails knoweldge</h1>
+      <h2>Learn as you go</h2>
+      <h4>March 8</h4>
+        <table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%"><form method="POST" name="result"><table border="0" width="100%" cellpadding="0" height="116">
+        <tr>
+          <td>Right:</font></strong></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Wrong:</font></strong></td>
+          <td></textarea></td>
+        </tr>
+        <tr>
+          <td>Percent right:</font></strong></td>
+          <td><input type="text" name="q"></td>
+        </tr>
+      </table>
+    </form>
+    </td>
+  </tr>
+</table>
+</center></div>
+
+<form method="POST"><div
+  align="center"><center><p>
+
+<script>
+var wrong=0
+for (e=0;e<=2;e++)
+document.result[e].value=""
+
+var results=document.cookie.split(";")
+for (n=0;n<=results.length-1;n++){
+if (results[n].charAt(1)=='q')
+parse=n
+
+}
+
+var incorrect=results[parse].split("=")
+incorrect=incorrect[1].split("/")
+if (incorrect[incorrect.length-1]=='b')
+incorrect=""
+document.result[0].value=totalquestions-incorrect.length+" out of "+totalquestions
+document.result[2].value=(totalquestions-incorrect.length)/totalquestions*100+"%"
+for (temp=0;temp<incorrect.length;temp++)
+document.result[1].value+=incorrect[temp]+", "
+
+
+</script>
+
+<input type="button" value="Take the quiz again" name="B1"
+  onClick="history.go(-1)"> <input type="button" value="View solution" name="B2"
+  onClick="showsolution()"></p>
+  </center></div>
+</form>
+      </br>
+      <a href="http://stefanieswift.github.io/blog_archive"><h3>Read more in the blog archive</h3></a>
+      </div>
+      </div>
+      </br>
+      </br>
+      <div class="footer">
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+        <p>@ stefanie swift 2015</p>
+      </div>
+      
+ </body>
+ </html>
