@@ -34,7 +34,7 @@ document.cookie='q='+incorrect
 if (document.cookie=='')
 alert("Your browser does not accept cookies. Please adjust your browser settings.")
 else
-window.location="results.html"
+alert("Oops, not correct")
 }
 
 
