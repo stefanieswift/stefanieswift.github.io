@@ -10,16 +10,17 @@ correctchoices[4]='b'
 correctchoices[5]='c'
 
 
+
 function gradeit(){
 var incorrect=null
 for (q=1;q<=totalquestions;q++){
 	var thequestion=eval("document.myquiz.question"+q)
-	for (i=0;c<thequestion.length;i++){
-		if (thequestion[i].checked==true)
-		actualchoices[q]=thequestion[i].value
+	for (c=0;c<thequestion.length;c++){
+		if (thequestion[c].checked==true)
+		actualchoices[q]=thequestion[c].value
 		}
 		
-	if (actualchoices[q]!=correctchoices[q]){ 
+	if (actualchoices[q]!=correctchoices[q]){ //process an incorrect choice
 		if (incorrect==null)
 		incorrect=q
 		else
@@ -33,7 +34,7 @@ document.cookie='q='+incorrect
 if (document.cookie=='')
 alert("Your browser does not accept cookies. Please adjust your browser settings.")
 else
-window.location="results.html"
+window.location="results.htm"
 }
 
 
