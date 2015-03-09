@@ -31,6 +31,9 @@ function getScore(form) {
     }
   }
   score = Math.round(score/numQues*100);
+  if score == 100 {
+  	prompt("Good job, you know rails well!")
+  }
   form.percentage.value = score + "%";
   var correctAnswers = "";
   for (i=1; i<=numQues; i++) {
