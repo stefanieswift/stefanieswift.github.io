@@ -33,7 +33,7 @@ function getScore(form) {
 	alert("You are a rails master!")
 }
 else{
-alert("Sorry, but you need some work. Review your answers below")
+alert("Sorry, but you need some work. Review your answers below")};
   form.percentage.value = score + "%";
   var correctAnswers = "";
   for (i=1; i<=numQues; i++) {
