@@ -7,6 +7,15 @@ html {
   font-family: 'Raleway', serif;
   text-transform: lowercase;
 }
+
+.quiz ol {
+	list-style-type: none}
+
+}
+
+.quiz ol li {
+	text-align: left;
+}
 body{
 	width: 100%;
 }
