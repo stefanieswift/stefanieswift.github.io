@@ -1,19 +1,17 @@
 var numQues = 5;
 
-// Insert number of choices in each question
 var numChoi = 3;
 
-// Insert number of questions displayed in answer area
 var answers = new Array(5);
 
-// Insert answers to questions
+
 answers[0] = "Open Source";
 answers[1] = "True";
 answers[2] = "David Heinemeier Hansson";
 answers[3] = "4.2";
 answers[4] = "True";
 
-// Do not change anything below here ...
+
 function getScore(form) {
   var score = 0;
   var currElt;
@@ -31,6 +29,11 @@ function getScore(form) {
     }
   }
   var score = Math.round(score/numQues*100);
+  if(score == 100){
+	alert("You are a rails master!")
+}
+else{
+alert("Sorry, but you need some work. Review your answers below")
   form.percentage.value = score + "%";
   var correctAnswers = "";
   for (i=1; i<=numQues; i++) {
@@ -39,6 +42,4 @@ function getScore(form) {
   form.solutions.value = correctAnswers;
 }
 
-if(score == 100){
-	alert("You are a rails master!")
-}
+
