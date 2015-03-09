@@ -30,7 +30,7 @@ function getScore(form) {
       }
     }
   }
-  score = Math.round(score/numQues*100);
+  var score = Math.round(score/numQues*100);
   form.percentage.value = score + "%";
   var correctAnswers = "";
   for (i=1; i<=numQues; i++) {
@@ -39,6 +39,6 @@ function getScore(form) {
   form.solutions.value = correctAnswers;
 }
 
- if score == 100 {
-  	prompt("Good job, you know rails well!")
-  }
+if(score == 100){
+	alert("You are a rails master!")
+}

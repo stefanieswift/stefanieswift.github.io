@@ -13,8 +13,8 @@ html {
 
 }
 
-.quiz ol li {
-	text-align: left;
+input[type="radio"]{
+    vertical-align: baseline;
 }
 body{
 	width: 100%;
