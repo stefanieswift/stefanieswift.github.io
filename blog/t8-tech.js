@@ -7,11 +7,11 @@ var numChoi = 3;
 var answers = new Array(5);
 
 // Insert answers to questions
-answers[0] = "open source";
-answers[1] = "true";
-answers[2] = "david heinemeier hansson";
+answers[0] = "Open Source";
+answers[1] = "True";
+answers[2] = "David Heinemeier Hansson";
 answers[3] = "4.2";
-answers[4] = "true";
+answers[4] = "True";
 
 // Do not change anything below here ...
 function getScore(form) {
