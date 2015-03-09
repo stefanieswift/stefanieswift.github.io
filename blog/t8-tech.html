@@ -9,8 +9,6 @@
       type="image/png" 
       href="http://thedelectablefeast.com/wp-content/uploads/2015/01/Untitled-drawing-1.png">
       <script src="t8-tech.js"></script>
-      <script>var actualchoices=new Array()
-document.cookie="ready=yes"</script>
   </head>
     <header>
       <div class="home">
@@ -31,63 +29,47 @@ document.cookie="ready=yes"</script>
       <h1>Let's test your rails knoweldge</h1>
       <h2>Learn as you go</h2>
       <h4>March 8</h4>
-         <form method="POST" name="myquiz">
-        <div class="qheader">
-        1) Fill in the blank, Rails is a(n) _____________ web application framework.</div>
-        <div class="qselections">
-        <input type="radio" value="a" name="question1">a) Closed source<br>
-        <input type="radio" value="b" name="question1">b) Open source<br>
-        <input type="radio" value="c" name="question1">c) free <br>
-        <input type="radio" value="d" name="question1">d) favorite<br>
-        </div>
+        <form name="quiz" class = "quiz">
+1. Fill in the blank, Rails is a(n) _____________ web application framework.
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q1" value="Colorful Style Symbols">Closed source</li>
+  <li><input type="radio" name="q1" value="Cascading Style Sheets">Open Source</li>
+  <li><input type="radio" name="q1" value="Computer Style Symbols">free</li>
+</ul>
 
-        <br>
+2. Rails is a full-stack framework.
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q2" value="Dramatic HTML">True</li>
+  <li><input type="radio" name="q2" value="Design HTML">False</li>
+  <li><input type="radio" name="q2" value="Dynamic HTML">Why are you asking me?</li>
+</ul>
+3. Who first released rails?
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q3" value="Microsoft">Mark Zuckerburg</li>
+  <li><input type="radio" name="q3" value="Netscape">Yukihiro Matsumoto</li>
+  <li><input type="radio" name="q3" value="Sun Micro Systems">David Heinemeier Hansson</li>
+</ul>
+4. The latest version of rails released is?
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q4" value="Cascading Gate Interaction">2.2</li>
+  <li><input type="radio" name="q4" value="Common GIF Interface">5.1</li>
+  <li><input type="radio" name="q4" value="Common Gateway Interface">4.2</li>
+</ul>
 
-        <div class="qheader">
-        2) Rails is a full-stack framework</div>
-        <div class="qselections">
-        <input type="radio" value="a" name="question2">a) true<br>
-        <input type="radio" value="b" name="question2">b) false<br>
-        </div>
+5. Rails is often installed on a computer using RubyGems
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q5" value="Cascading Gate Interaction">False</li>
+  <li><input type="radio" name="q5" value="Common GIF Interface">True</li>
+  <li><input type="radio" name="q5" value="Common Gateway Interface">Neither</li>
+</ul>
 
-        <br>
-
-        <div class="qheader">
-        3) Who first released rails?</div>
-        <div class="qselections">
-        <input type="radio" value="a" name="question3">a) Mark Zuckerburg<br>
-        <input type="radio" value="b" name="question3">b) Yukihiro Matsumoto<br>
-        <input type="radio" value="c" name="question3">c) David Heinemeier Hansson <br>
-        <input type="radio" value="d" name="question3">d) Steve Jobs<br>
-        </div>
-
-        <br>
-
-        <div class="qheader">
-        4) Rails is often installed on a computer using RubyGems</div>
-        <div class="qselections">
-        <input type="radio" value="a" name="question4">a) false<br>
-        <input type="radio" value="b" name="question4">b) true<br>
-        </div>
-
-        <br>
-
-        <div class="qheader">
-        5) The latest version of rails released is?</div>
-        <div class="qselections">
-        <input type="radio" value="a" name="question5">a) 2.2<br>
-        <input type="radio" value="b" name="question5">b) 5.1<br>
-        <input type="radio" value="c" name="question5">c) 4.2<br>
-        <input type="radio" value="d" name="question5">d) 3.2<br>
-        </div>
-
-        <br>
-        </form>
-
-        <form>
-        <div align="center">
-        <input type="button" value="Grade Me!" name="B1" onClick="gradeit()"> <input type="button" value="Reset" name="B2" onClick="document.myquiz.reset()"></div>
-        </form>
+<input type="button" value="Get score" onClick="getScore(this.form)">
+<input type="reset" value="Clear answers">
+<p> Score = <strong><input class="bgclr" type="text" size="5" name="percentage" disabled></strong><br><br>
+Correct answers:<br>
+<textarea class="bgclr" name="solutions" wrap="virtual" rows="4" cols="30" disabled>
+</textarea>
+</form>
       </br>
       <a href="http://stefanieswift.github.io/blog_archive"><h3>Read more in the blog archive</h3></a>
       </div>

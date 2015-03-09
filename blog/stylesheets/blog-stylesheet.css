@@ -6,6 +6,10 @@ html {
   background-size: cover;
   font-family: 'Raleway', serif
 }
+
+.quiz ul{
+ list-style-type:none; }
+
 body{
 	width: 100%;
 }

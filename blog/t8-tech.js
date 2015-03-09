@@ -1,64 +1,40 @@
+var numQues = 5;
 
+// Insert number of choices in each question
+var numChoi = 3;
 
-var totalquestions=5
+// Insert number of questions displayed in answer area
+var answers = new Array(5);
 
-var correctchoices=new Array()
-correctchoices[1]='b' 
-correctchoices[2]='a' 
-correctchoices[3]='c'
-correctchoices[4]='b'
-correctchoices[5]='c'
+// Insert answers to questions
+answers[0] = "open source";
+answers[1] = "true";
+answers[2] = "david heinemeier hansson";
+answers[3] = "4.2";
+answers[4] = "true";
 
-
-
-function gradeit(){
-var incorrect=null
-for (q=1;q<=totalquestions;q++){
-	var thequestion=eval("document.myquiz.question"+q)
-	for (c=0;c<thequestion.length;c++){
-		if (thequestion[c].checked==true)
-		actualchoices[q]=thequestion[c].value
-		}
-		
-	if (actualchoices[q]!=correctchoices[q]){ //process an incorrect choice
-		if (incorrect==null)
-		incorrect=q
-		else
-		incorrect+="/"+q
-		}
-	}
-
-if (incorrect==null)
-incorrect="a/b"
-document.cookie='q='+incorrect
-if (document.cookie=='')
-alert("Your browser does not accept cookies. Please adjust your browser settings.")
-else
-alert("Oops, not correct")
-}
-
-
-function showsolution(){
-var win2=window.open("","win2","width=200,height=350, scrollbars")
-win2.focus()
-win2.document.open()
-win2.document.write('<title>Solution</title>')
-win2.document.write('<body bgcolor="#FFFFFF">')
-win2.document.write('<center><h3>Solution to Quiz</h3></center>')
-win2.document.write('<center><font face="Arial">')
-for (i=1;i<=totalquestions;i++){
-for (temp=0;temp<incorrect.length;temp++){
-if (i==incorrect[temp])
-wrong=1
-}
-if (wrong==1){
-win2.document.write("Question "+i+"="+correctchoices[i].fontcolor("red")+"<br>")
-wrong=0
-}
-else
-win2.document.write("Question "+i+"="+correctchoices[i]+"<br>")
-}
-win2.document.write('</center></font>')
-win2.document.write("<h5>Note: The solutions in red are the ones to the questions you had incorrectly answered.</h5><p align='center'><small><a href='http://www.javascriptkit.com' target='_new'>JavaScript Kit quiz script</a></small>")
-win2.document.close()
+// Do not change anything below here ...
+function getScore(form) {
+  var score = 0;
+  var currElt;
+  var currSelection;
+  for (i=0; i<numQues; i++) {
+    currElt = i*numChoi;
+    for (j=0; j<numChoi; j++) {
+      currSelection = form.elements[currElt + j];
+      if (currSelection.checked) {
+        if (currSelection.value == answers[i]) {
+          score++;
+          break;
+        }
+      }
+    }
+  }
+  score = Math.round(score/numQues*100);
+  form.percentage.value = score + "%";
+  var correctAnswers = "";
+  for (i=1; i<=numQues; i++) {
+    correctAnswers += i + ". " + answers[i-1] + "\r\n";
+  }
+  form.solutions.value = correctAnswers;
 }
