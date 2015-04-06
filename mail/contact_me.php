@@ -24,6 +24,6 @@ $headers = array("From: stefaniegswift@gmail.com", // missing colon
     "X-Mailer: PHP/" . PHP_VERSION     // bad quotes
 );
 $headers = implode("\r\n", $headers);
-mail($to, $subject, $message, $headers);
+mail('stefaniegswift@gmail.com', $subject, $message, $headers);
 return true;
 ?>
